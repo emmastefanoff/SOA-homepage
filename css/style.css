@@ -63,6 +63,8 @@ section {
   line-height: 1.5em;
   font-size: 1.1em;
   text-align: center;
+  width: 70%;
+  margin-left: 15%;
 }
 
 .handle {
@@ -99,7 +101,11 @@ section {
   padding:1em 3em;
   line-height:1.5em;
   text-align: center;
+}
 
+.cardsintro p {
+    width: 70%;
+    margin-left: 14%;
 }
 .cards .card-item {
   display: flex;
@@ -143,6 +149,12 @@ section {
   background-repeat: no-repeat;
   border-radius: 6px 6px 0px 0px;
   opacity: 0.91;
+}
+
+.card-intro {
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
 }
 
 /* meet the teams */
