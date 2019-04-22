@@ -15,6 +15,10 @@ header {
 
 }
 
+header img {
+    width: 50%;
+}
+
 a {
   text-decoration:none;
   color:inherit;
@@ -157,6 +161,10 @@ section {
     margin-left: 10%;
 }
 
+.card-image {
+    margin-top: 5%;
+}
+
 /* meet the teams */
 
 .row {
@@ -178,6 +186,7 @@ section {
 /*FOOTER*/
 footer{
   background-color: #333;
+  width: 100%;
 
 }
 
@@ -186,7 +195,7 @@ footer{
   background-color: #333;
   padding: 10px 50px;
   text-align: center;
-  color:white;
+  color: white;
 }
 
 /*media queries*/
