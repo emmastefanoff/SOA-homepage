@@ -285,13 +285,13 @@ a:hover .cardLink{
 }
 
 #pastProjects {
-  padding-top: 40px;
+  padding-top: 10px;
 
 }
 
 .btn-secondary{
   background-color: #C38937;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   font-family: nunito-sans, sans-serif;
   font-weight: 400;
   font-style: italic;
@@ -332,7 +332,7 @@ footer{
 }
 
 .footerbg{
- font-size: 15px;
+ font-size: 12px;
   background-color: #333;
   padding: 10px 50px;
   text-align: center;
