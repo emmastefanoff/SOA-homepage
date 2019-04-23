@@ -19,9 +19,7 @@ header img {
     width: 90%;
 }
 
-.bgred{
-  background-color: red;
-}
+
 
 /* svg arrow */
 /* #arrow-img img {
@@ -332,12 +330,21 @@ footer{
 }
 
 .footerbg{
- font-size: 12px;
+
   background-color: #333;
   padding: 10px 50px;
   text-align: center;
-  color: white;
+  color: #FBBD49 ;
+
 }
+
+.contributers{
+color:#DCB15F;
+font-style: normal;
+font-weight: lighter;
+margin-top: 10px;
+}
+
 
 /*media queries*/
 
