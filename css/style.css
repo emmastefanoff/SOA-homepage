@@ -16,8 +16,24 @@ header {
 }
 
 header img {
-    width: 50%;
+    width: 90%;
 }
+
+
+
+.header-logo {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 
 a {
   text-decoration:none;
@@ -108,11 +124,6 @@ p {
   font-weight: 400;
   font-style: normal;
 }
-
-#nick-text{
-  text-align: center;
-}
-
 
 section {
   line-height: 1.5em;
