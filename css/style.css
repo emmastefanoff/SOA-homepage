@@ -50,6 +50,10 @@ a {
   color:inherit;
 }
 
+nav {
+  margin-top: none;
+}
+
 nav ul {
   background-color: #333;
   font-family: nunito-sans, sans-serif;
@@ -63,18 +67,21 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  padding: 20px;
+  padding:15px;
   color: white;
-  -webkit-transition: background-color 0.4s ease-out;
-  -ms-transition: background-color 0.4s ease-out;
-  -moz-transition: background-color 0.4s ease-out;
-  -o-transition: background-color 0.4s ease-out;
-  transition: background-color 0.4s ease-out;
+  -webkit-transition: background-color 0.6s ease-out;
+  -ms-transition: background-color 0.6s ease-out;
+  -moz-transition: background-color 0.6s ease-out;
+  -o-transition: background-color 0.6s ease-out;
+  transition: background-color 0.6s ease-out;
 }
 
 nav ul li:hover {
   background-color: #FBBD49;
   color:#333;
+  min-width: 40px;
+  font-size: 20px;
+
 }
 
 
@@ -360,7 +367,7 @@ margin-top: 10px;
   nav ul li {
     box-sizing:border-box;
     width:100%;
-    padding:15px;
+    padding:;
     text-align:center;
   }
 
@@ -426,5 +433,11 @@ ul li:hover a, ul li:focus a {
 @media (min-width: 56rem) {
   .cards {
     width: 50%;
+  }
+}
+
+@media (max-width: 301px) {
+  .cards {
+    width: 100%;
   }
 }
