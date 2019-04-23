@@ -146,10 +146,7 @@ section {
   margin: 0 auto;
 }
 
-.introbox {
-  width:100%;
-  text-align: center;
-}
+
 
 .intro {
   padding: 30px;
@@ -187,6 +184,10 @@ section {
   margin: 0 auto;
 }
 
+#teams{
+padding:40px;
+
+}
 .cards {
   display: flex;
   padding: 1rem;
@@ -282,6 +283,26 @@ a:hover .cardLink{
   padding: 5px;
 }
 
+#pastProjects {
+  padding-top: 40px;
+
+}
+
+.enlarge {
+  font-size:2rem;
+  color:#333;
+
+
+}
+
+a:hover {
+  text-decoration: none;
+  color:#C38937;
+}
+
+.linkList {
+  padding-bottom: 40px;
+}
 
 
 
@@ -302,7 +323,7 @@ footer{
 
 /*media queries*/
 
-@media screen and (max-width:600px){
+@media screen and (max-width:321px){
   nav ul {
     max-height:0;
   }
@@ -362,13 +383,6 @@ ul li:hover a, ul li:focus a {
 }
 }
 
-#pastProjects {
-  padding-top: 40px;
-}
-
-.linkList {
-  padding-bottom: 40px;
-}
 
 
 @media (min-width: 40rem){
