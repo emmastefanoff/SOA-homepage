@@ -353,6 +353,10 @@ margin-top: 10px;
 }
 
 
+
+
+
+
 /*media queries*/
 
 @media screen and (max-width:321px){
@@ -433,11 +437,5 @@ ul li:hover a, ul li:focus a {
 @media (min-width: 56rem) {
   .cards {
     width: 50%;
-  }
-}
-
-@media (max-width: 301px) {
-  .cards {
-    width: 100%;
   }
 }
