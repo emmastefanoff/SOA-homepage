@@ -152,9 +152,9 @@ section {
   padding: 30px;
   line-height: 1.5em;
   font-size: 1.1em;
-  text-align: center;
-  width: 70%;
-  margin-left: 15%;
+  text-align: left;
+  min-width: 70%;
+
 }
 
 .handle {
@@ -288,10 +288,27 @@ a:hover .cardLink{
 
 }
 
+.btn-secondary{
+  background-color: #C38937;
+  margin-bottom: 30px;
+  font-family: nunito-sans, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+p .btn-secondary{
+  font-size: 20px;
+}
+
+.btn-secondary:hover{
+  background-color: #333;
+}
+
+
+
 .enlarge {
   font-size:2rem;
   color:#333;
-
 
 }
 
