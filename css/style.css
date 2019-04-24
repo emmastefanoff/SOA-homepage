@@ -289,8 +289,13 @@ a:hover .cardLink{
   padding: 5px;
 }
 
+.car{
+max-height: 40%;
+}
+
 #pastProjects {
-  padding-top: 10px;
+  padding-top: 40px;
+
 
 }
 
@@ -316,6 +321,7 @@ p .btn-secondary{
   font-size:2rem;
   color:#333;
 
+
 }
 
 a:hover {
@@ -324,7 +330,7 @@ a:hover {
 }
 
 .linkList {
-  padding-bottom: 40px;
+padding-bottom: 40px;
 }
 
 
@@ -418,8 +424,6 @@ ul li:hover a, ul li:focus a {
     transform: translateY(-100%);
 }
 }
-
-
 
 @media (min-width: 40rem){
   *,
