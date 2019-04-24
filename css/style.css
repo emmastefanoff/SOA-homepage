@@ -141,7 +141,7 @@ p {
   font-family: nunito-sans, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 section {
@@ -152,6 +152,9 @@ section {
   margin: 0 auto;
 }
 
+#intro-text{
+  font-size: 18px;
+}
 
 
 .intro {
@@ -241,7 +244,7 @@ padding:40px;
 .cards .card-title {
   font-size: 25px;
   line-height: 1.1em;
-  color: #333;
+  color: #C38937;
   margin-bottom: 0.2em;
 }
 .cards .card-image {
@@ -299,21 +302,6 @@ max-height: 40%;
 
 }
 
-.btn-secondary{
-  background-color: #C38937;
-  margin-bottom: 40px;
-  font-family: nunito-sans, sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-p .btn-secondary{
-  font-size: 20px;
-}
-
-.btn-secondary:hover{
-  background-color: #333;
-}
 
 
 
@@ -364,6 +352,28 @@ margin-top: 10px;
 
 
 /*media queries*/
+
+
+@media (max-width: 991.98px) {
+  p{
+    font-size: 20px;
+  }
+
+  h4{
+    font-size: 25px;
+  }
+
+  .team-spacing{
+    padding-top: 30px;
+  }
+
+  #intro-text{
+    font-size: 20px;
+  }
+
+ }
+
+
 
 @media screen and (max-width:321px){
   nav ul {
@@ -424,6 +434,7 @@ ul li:hover a, ul li:focus a {
     transform: translateY(-100%);
 }
 }
+
 
 @media (min-width: 40rem){
   *,
