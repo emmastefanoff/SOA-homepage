@@ -158,7 +158,8 @@ section {
 
 
 .intro {
-  padding: 30px;
+  padding: 20px;
+  margin-top: 10px;
   line-height: 1.5em;
   font-size: 1.1em;
   text-align: left;
@@ -321,6 +322,9 @@ a:hover {
 padding-bottom: 40px;
 }
 
+#homepage{
+  font-size: 20px;
+}
 
 
 /*FOOTER*/
